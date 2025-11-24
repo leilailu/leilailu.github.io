@@ -18,7 +18,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: white;
+    background: #DCD1C3;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
@@ -42,14 +42,14 @@ nav a {
 }
 
 nav a:hover {
-    color: #0077ff;
+    color: #B29784;
 }
 
 /* HERO */
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #9dcfff, #eaf3ff);
+    background: linear-gradient(135deg, #B29784, #9CAF88);
 }
 
 .hero h2 {
@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .highlight {
-    color: #0066dd;
+    color: #B29784;
     font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ nav a:hover {
     margin-top: 20px;
     padding: 12px 20px;
     border: none;
-    background: #0066dd;
+    background: #483C32;
     color: white;
     border-radius: 6px;
     cursor: pointer;
@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 .hero button:hover {
-    background: #004ea8;
+    background: #B29784;
 }
 
 /* SECTIONS */
@@ -97,7 +97,7 @@ nav a:hover {
 }
 
 .project-card {
-    background: white;
+    background: #DCD1C3;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
@@ -112,20 +112,20 @@ nav a:hover {
 .contact-btn {
     display: inline-block;
     padding: 12px 20px;
-    background: #0066dd;
-    color: white;
+    background: #B29784;
+    color: #DCD1C3;
     border-radius: 6px;
     text-decoration: none;
 }
 
 .contact-btn:hover {
-    background: #004ea8;
+    background: #B29784;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
-    color: #666;
+    color: #4F5743;
     margin-top: 40px;
 }
