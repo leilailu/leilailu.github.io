@@ -50,7 +50,7 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #9CAF88, #B29784); /* Flytende overgang fra grønn til beige */
+    background: linear-gradient(135deg, #9CAF88, #4F5743); /* Flytende overgang fra grønn til beige */
     color: white; /* Hvit tekst for bedre lesbarhet */
 }
 
