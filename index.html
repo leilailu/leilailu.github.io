@@ -3,23 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Den Gylne Node</title>
+    <title>Alt jeg har tenkt å fortelle deg</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Hei, jeg heter Leila Thi Lu</h1>
+    <!-- NAVBAR -->
+    <nav>
+        <h1 class="logo">LEILA THI LU</h1>
+        <ul>
+            <li><a href="#about">Hvem er jeg?</a></li>
+            <li><a href="#projects">Prosjekter</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <h2>Hei! Jeg er <span class="highlight">[LEILA THI LU]</span></h2>
+        <p>Web-utvikler, student, barista, kodelærer, pleieassistent, you name it.</p>
+        <button id="scrollButton">Se mer</button>
     </header>
 
-    <section class="container">
-        <img src="images/profile.jpg" alt="Bilde av meg" class="profile-pic">
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <h2>Om meg</h2>
+        <p>
+            Hvem er jeg egt?
+        </p>
+    </section>
 
-        <p>Dette er min enkle nettside. Jeg kommer til å bygge videre på den etter hvert.</p>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+        <h2>Prosjekter</h2>
 
-        <button id="helloBtn">Trykk på meg</button>
+        <div class="project-grid">
 
-        <p id="message"></p>
+            <div class="project-card">
+                <h3>Prosjekt 1</h3>
+                <p>eehh on hold.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Prosjekt 2</h3>
+                <p>to be continued.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Prosjekt 3</h3>
+                <p>skjer nok aldri</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+        <h2>Kontakt</h2>
+        <p>Send meg gjerne en melding!</p>
+        <a class="contact-btn" href="mailto:leila.lu@live.com">Send e-post</a>
     </section>
 
     <footer>
@@ -29,4 +71,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
