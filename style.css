@@ -8,7 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
-    background: #DCD1C3; /* Lys beige som bakgrunn - mer naturlig */
+    background: #DCD1C3; /* Lys beige som bakgrunn */
     line-height: 1.6;
 }
 
@@ -18,7 +18,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #9CAF88; /* Grønn i navigasjon - gir kontrast */
+    background: #9CAF88; /* Grønn i navigasjon */
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
@@ -68,7 +68,7 @@ nav a:hover {
     margin-top: 20px;
     padding: 12px 20px;
     border: none;
-    background: #483C32; /* Mørk brun - beholdt som ønsket */
+    background: #483C32; 
     color: white;
     border-radius: 6px;
     cursor: pointer;
@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 .hero button:hover {
-    background: #5A4C3D; /* Litt lysere brun ved hover */
+    background: #5A4C3D; 
 }
 
 /* SECTIONS */
@@ -85,7 +85,10 @@ nav a:hover {
     padding: 60px 20px;
     max-width: 900px;
     margin: auto;
-    background: #F8F5F2; /* Veldig lys beige for innholdsområder */
+    background: linear-gradient(135deg, #F8F5F2, #FFFFFF); 
+    border-radius: 10px; /*for avrundede hjørner */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .section h2 {
@@ -119,7 +122,7 @@ nav a:hover {
 .contact-btn {
     display: inline-block;
     padding: 12px 20px;
-    background: #483C32; /* Mørk brun - beholdt som ønsket */
+    background: #483C32; /* Mørk brun */
     color: white;
     border-radius: 6px;
     text-decoration: none;
